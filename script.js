@@ -7,7 +7,7 @@ function myFunction () {
   // making it know age is a number
   const day = document.getElementById('box2').value
   // Making it so it gets day from the second box
-  if ((day ==='tuesday' || day === 'thursday') && (age > 11 && age < 22)) {
+  if ((day === 'tuesday' || day === 'thursday') && (age > 11 && age < 22)) {
     alert('congrats on your discount')
   } else {
     alert('you didnt get a discount')
